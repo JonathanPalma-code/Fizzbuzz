@@ -10,4 +10,7 @@ describe 'fizzbuzz' do
     it'returns fizzbuzz when passed multiple of 5 and a multiple 3' do
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end
+    it'returns number if not a multiple of both' do
+        expect(fizzbuzz(2)).to eq 2
+    end
 end
